@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "gtagmanager-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/gtagmanager/GtagmanagerApplicationCustomizer.js",
+          "manifest": "./src/extensions/gtagmanager/GtagmanagerApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GtagmanagerApplicationCustomizerStrings": "lib/extensions/gtagmanager/loc/{locale}.js"
+  }
+}

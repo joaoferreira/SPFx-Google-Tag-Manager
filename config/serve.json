@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "8b00fe9b-cce0-4a46-b74b-0263532d8f94": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "trackingID": ""
+          }
+        }
+      }
+    },
+    "gtagmanager": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "8b00fe9b-cce0-4a46-b74b-0263532d8f94": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "trackingID": ""
+          }
+        }
+      }
+    }
+  }
+}

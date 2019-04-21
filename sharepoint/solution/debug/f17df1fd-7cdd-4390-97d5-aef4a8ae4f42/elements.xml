@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="Gtagmanager"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="8b00fe9b-cce0-4a46-b74b-0263532d8f94"
+        ClientSideComponentProperties="{&quot;trackingID&quot;:&quot;&quot;}">
+    </CustomAction>
+</Elements>
